@@ -170,3 +170,38 @@ INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:30:25] "[33mGET /style.css HTTP/1.1
 INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:30:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:30:27] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:30:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.26:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:47:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:47:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:47:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Driver [/Users/platosystechnologies/.wdm/drivers/chromedriver/mac_arm64/114.0.5735.90/chromedriver] found in cache
+INFO:root:log my final result [{'title_list': 'Launching PAHAL Batch 🔥 For Class 11th Arts Students 💪', 'video_urls_list': 'https://www.youtube.com//watch?v=dArUpCasmnE', 'views_list': '23K views', 'times_list': '4 days ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=dArUpCasmnE'}, {'title_list': 'Launching FUNDO For Class - 6th to 8th Students 🔥💯 || Ab Hoga Padhai Ke Sath FUN 🤩', 'video_urls_list': 'https://www.youtube.com//watch?v=HqG2QchBw8Y', 'views_list': '22K views', 'times_list': '8 days ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=HqG2QchBw8Y'}, {'title_list': '⚡Unleashing the Power of PW Internationally⚡| Launching Physics Wallah Gulf', 'video_urls_list': 'https://www.youtube.com//watch?v=1izKrQHyx9M', 'views_list': '66K views', 'times_list': '3 weeks ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=1izKrQHyx9M'}, {'title_list': 'Big Announcement for Gulf Region Aspirants 🔥| Physics Wallah Gulf Channel Trailer🚀', 'video_urls_list': 'https://www.youtube.com//watch?v=jXAb1evxaJc', 'views_list': '97K views', 'times_list': '1 month ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=jXAb1evxaJc'}, {'title_list': 'Arjuna JEE v/s Arjuna NEET 🏏- Class 11th Faculties ka Cricket Match 🔥', 'video_urls_list': 'https://www.youtube.com//watch?v=2dn7XMxRtPE', 'views_list': '379K views', 'times_list': '1 month ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=2dn7XMxRtPE'}]
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:47:53] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:47:53] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:47:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Driver [/Users/platosystechnologies/.wdm/drivers/chromedriver/mac_arm64/114.0.5735.90/chromedriver] found in cache
+INFO:root:log my final result [{'title_list': 'Launching PAHAL Batch 🔥 For Class 11th Arts Students 💪', 'video_urls_list': 'https://www.youtube.com//watch?v=dArUpCasmnE', 'views_list': '23K views', 'times_list': '4 days ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=dArUpCasmnE'}, {'title_list': 'Launching FUNDO For Class - 6th to 8th Students 🔥💯 || Ab Hoga Padhai Ke Sath FUN 🤩', 'video_urls_list': 'https://www.youtube.com//watch?v=HqG2QchBw8Y', 'views_list': '22K views', 'times_list': '8 days ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=HqG2QchBw8Y'}, {'title_list': '⚡Unleashing the Power of PW Internationally⚡| Launching Physics Wallah Gulf', 'video_urls_list': 'https://www.youtube.com//watch?v=1izKrQHyx9M', 'views_list': '66K views', 'times_list': '3 weeks ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=1izKrQHyx9M'}, {'title_list': 'Big Announcement for Gulf Region Aspirants 🔥| Physics Wallah Gulf Channel Trailer🚀', 'video_urls_list': 'https://www.youtube.com//watch?v=jXAb1evxaJc', 'views_list': '97K views', 'times_list': '1 month ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=jXAb1evxaJc'}, {'title_list': 'Arjuna JEE v/s Arjuna NEET 🏏- Class 11th Faculties ka Cricket Match 🔥', 'video_urls_list': 'https://www.youtube.com//watch?v=2dn7XMxRtPE', 'views_list': '379K views', 'times_list': '1 month ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=2dn7XMxRtPE'}]
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:17] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:17] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Driver [/Users/platosystechnologies/.wdm/drivers/chromedriver/mac_arm64/114.0.5735.90/chromedriver] found in cache
+INFO:root:log my final result [{'title_list': 'Launching PAHAL Batch 🔥 For Class 11th Arts Students 💪', 'video_urls_list': 'https://www.youtube.com//watch?v=dArUpCasmnE', 'views_list': '23K views', 'times_list': '4 days ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=dArUpCasmnE'}, {'title_list': 'Launching FUNDO For Class - 6th to 8th Students 🔥💯 || Ab Hoga Padhai Ke Sath FUN 🤩', 'video_urls_list': 'https://www.youtube.com//watch?v=HqG2QchBw8Y', 'views_list': '22K views', 'times_list': '8 days ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=HqG2QchBw8Y'}, {'title_list': '⚡Unleashing the Power of PW Internationally⚡| Launching Physics Wallah Gulf', 'video_urls_list': 'https://www.youtube.com//watch?v=1izKrQHyx9M', 'views_list': '66K views', 'times_list': '3 weeks ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=1izKrQHyx9M'}, {'title_list': 'Big Announcement for Gulf Region Aspirants 🔥| Physics Wallah Gulf Channel Trailer🚀', 'video_urls_list': 'https://www.youtube.com//watch?v=jXAb1evxaJc', 'views_list': '97K views', 'times_list': '1 month ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=jXAb1evxaJc'}, {'title_list': 'Arjuna JEE v/s Arjuna NEET 🏏- Class 11th Faculties ka Cricket Match 🔥', 'video_urls_list': 'https://www.youtube.com//watch?v=2dn7XMxRtPE', 'views_list': '379K views', 'times_list': '1 month ago', 'thumbnail_video_url_list': 'https://www.youtube.com//watch?v=2dn7XMxRtPE'}]
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:31] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:31] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2023 15:48:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
