@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+  <div class="table-users">
+   <div class="header">{{selected_option}}</div>
+   {% if selected_option == "Web Scrap" %}
+   <table cellspacing="0">
+         <tr>
+            <th>Title</th>
+            <th>Video_url</th>
+            <th>Views</th>
+            <th>Uploaded time</th>
+            <th>Thumbnail </th>
+         </tr>
+            {% for review in reviews %}
+         <tr>
+            <td>{{review['title_list']}}</td>
+            <td>{{review['video_urls_list']}}</td>
+            <td>{{review['views_list']}}</td>
+            <td>{{review['times_list']}}</td>
+            <td>{{review['thumbnail_video_url_list']}} </td>
+         {% endfor %}
+   </table>
+   {% elif selected_option == "video URL of the first five videos" %}
+   <table cellspacing="0">
+      <tr>
+         <th>Video_url</th>
+      </tr>
+         {% for review in reviews %}
+      <tr>
+         <td>{{review['video_urls_list']}}</td>
+      {% endfor %}
+   </table>
+   {% elif selected_option == "URL of the video thumbnails of the first five videos" %}
+   <table cellspacing="0">
+      <tr>
+         <th>Thumbnail Video_url</th>
+      </tr>
+         {% for review in reviews %}
+      <tr>
+         <td>{{review['thumbnail_video_url_list']}}</td>
+      {% endfor %}
+   </table>
+   {% elif selected_option == "title of the first five videos" %}
+   <table cellspacing="0">
+      <tr>
+         <th>Title Videos</th>
+      </tr>
+         {% for review in reviews %}
+      <tr>
+         <td>{{review['title_list']}}</td>
+      {% endfor %}
+   </table>
+   {% elif selected_option == "number of views of the first five videos" %}
+   <table cellspacing="0">
+      <tr>
+         <th>Views</th>
+      </tr>
+         {% for review in reviews %}
+      <tr>
+         <td>{{review['views_list']}}</td>
+      {% endfor %}
+   </table>
+   {% else %}
+   <table cellspacing="0">
+      <tr>
+         <th>Uploaded Time</th>
+      </tr>
+         {% for review in reviews %}
+      <tr>
+         <td>{{review['times_list']}}</td>       
+      {% endfor %}
+   </table>
+   {% endif %}
+</div>
+<div class="form" style="text-align: center">
+   <form action="/" method="GET">
+       <input type="submit" value="home" style="text-align: center">
+   </form>
+</div>
+</body>
+</html>
